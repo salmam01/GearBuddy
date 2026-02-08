@@ -8,8 +8,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="appsettings.json" />
+    <None Remove="appsettings.local.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="appsettings.local.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="DSharpPlus" Version="5.0.0-nightly-02569" />
     <PackageReference Include="DSharpPlus.Commands" Version="5.0.0-nightly-02569" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="10.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.2" />
   </ItemGroup>
 
 </Project>
