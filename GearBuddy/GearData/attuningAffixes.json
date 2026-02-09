@@ -1,0 +1,322 @@
+{
+    "armour": [
+        {
+            "name": "Nameless Sword Martial Art Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Nameless Sword"
+            ]
+        },
+        {
+            "name": "Nameless Sword Charged Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Nameless Sword"
+            ]
+        },
+        {
+            "name": "Nameless Sword Special Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Nameless Sword"
+            ]
+        },
+
+        {
+            "name": "Nameless Spear Martial Art Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Nameless Spear"
+            ]
+        },
+        {
+            "name": "Nameless Spear Charged Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Nameless Spear"
+            ]
+        },
+        {
+            "name": "Nameless Spear Special Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Nameless Sword"
+            ]
+        },
+
+        {
+            "name": "Vernal Umbrella Martial Art Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Vernal Umbrella"
+            ]
+        },
+        {
+            "name": "Vernal Umbrella Charged Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Vernal Umbrella"
+            ]
+        },
+        {
+            "name": "Vernal Umbrella Special Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Vernal Umbrella"
+            ]
+        },
+
+        {
+            "name": "Inkwell Fan Martial Art Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Inkwell Fan"
+            ]
+        },
+        {
+            "name": "Inkwell Fan Charged Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Inkwell Fan"
+            ]
+        },
+        {
+            "name": "Inkwell Fan Special and Pursuit Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Inkwell Fan"
+            ]
+        },
+
+        {
+            "name": "Infernal Twinblades Empowered Light Attack DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Infernal Twinblades"
+            ]
+        },
+        {
+            "name": "Infernal Twinblades Martial Art Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Infernal Twinblades"
+            ]
+        },
+        {
+            "name": "Infernal Twinblades Special Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Infernal Twinblades"
+            ]
+        },
+
+        {
+            "name": "Mortal Rope Dart - Martial Art Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Mortal Rope Dart"
+            ]
+        },
+        {
+            "name": "Mortal Rope Dart - Charged Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Mortal Rope Dart"
+            ]
+        },
+        {
+            "name": "Mortal Rope Dart - Rodent DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Mortal Rope Dart"
+            ]
+        },
+
+        {
+            "name": "Strategic Sword Martial Art Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Strategic Sword"
+            ]
+        },
+        {
+            "name": "Strategic Sword Charged Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Strategic Sword"
+            ]
+        },
+        {
+            "name": "Strategic Sword Special Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Strategic Sword"
+            ]
+        },
+
+        {
+            "name": "Heavenquaker Spear Martial Art Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Heavenquaker Spear"
+            ]
+        },
+        {
+            "name": "Heavenquaker Spear Charged Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Heavenquaker Spear"
+            ]
+        },
+        {
+            "name": "Heavenquaker Spear Special Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Heavenquaker Spear"
+            ]
+        },
+
+                {
+            "name": "Heavenquaker Spear Martial Art Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Heavenquaker Spear"
+            ]
+        },
+        {
+            "name": "Heavenquaker Spear Charged Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Heavenquaker Spear"
+            ]
+        },
+        {
+            "name": "Heavenquaker Spear Special Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Heavenquaker Spear"
+            ]
+        },
+
+        {
+            "name": "Thundercry Blade Charged Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Thundercry Blade"
+            ]
+        },
+        {
+            "name": "Thundercry Blade Special Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Thundercry Blade"
+            ]
+        },
+
+        {
+            "name": "Stormbreaker Spear Martial Art Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Stormbreaker Spear"
+            ]
+        },
+        {
+            "name": "Stormbreaker Spear Charged Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Stormbreaker Spear"
+            ]
+        },
+        {
+            "name": "Stormbreaker Spear Special Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Stormbreaker Spear"
+            ]
+        },
+
+        {
+            "name": "Panacea Fan Martial Art Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Panacea Fan"
+            ]
+        },
+        {
+            "name": "Panacea Fan Special Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Panacea Fan"
+            ]
+        },
+
+        {
+            "name": "Soulshade Umbrella Martial Art Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Soulshade Umbrella"
+            ]
+        },
+        {
+            "name": "Soulshade Umbrella Charged Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Soulshade Umbrella"
+            ]
+        },
+        {
+            "name": "Soulshade Umbrella Special Skill DMG Boost",
+            "recommendedFor": [],
+            "recommendedForWeapon": [
+                "Soulshade Umbrella"
+            ]
+        }
+
+    ],
+    "weapon": [
+        {
+            "name": "Bellstrike Penetration",
+            "recommendedFor": [
+                "Bellstrike - Umbra",
+                "Bellstrike - Splender"
+            ]
+        },
+        {
+            "name": "Stonesplit Penetration",
+            "recommendedFor": [
+                "Stonesplit - Might"
+            ]
+        },
+        {
+            "name": "Silkbind Penetration",
+            "recommendedFor": [
+                "Silkbind - Deluge",
+                "Silkbind - Jade"
+            ]
+        },
+        {
+            "name": "Bamboocut Penetration",
+            "recommendedFor": [
+                "Bamboocut - Wind"
+            ]
+        },
+        {
+            "name": "Physical Penetration",
+            "recommendedFor": [
+                "Bamboocut - Wind",
+                "Bellstrike - Umbra",
+                "Bellstrike - Splender",
+                "General",
+                "Silkbind - Deluge",
+                "Silkbind - Jade",
+                "Stonesplit - Might"
+            ]
+        },
+        {
+            "name": "Physical Resistance",
+            "recommendedFor": [
+                "Stonesplit - Might"
+            ]
+        }
+    ]
+}

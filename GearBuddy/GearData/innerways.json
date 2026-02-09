@@ -1,0 +1,363 @@
+{
+    "innerways": [
+        {
+            "name": "Exquisite Scenery",
+            "type": "Stonesplit - Might",
+            "rarity": "yellow",
+            "tags": [
+              "Defense",
+              "Martial Arts",
+              "Counter"
+            ]
+        },
+        {
+            "name": "Morale Chant",
+            "type": "General",
+            "rarity": "yellow",
+            "tags": [
+                "Attack",
+                "Buff",
+                "Stacking"
+            ]
+        },
+        {
+            "name": "Trapped Beast",
+            "type": "Stonesplit - Might",
+            "rarity": "purple",
+            "tags": [
+                "Defense",
+                "Buff",
+                "Recover"
+            ]
+        },
+        {
+            "name": "Art of Resistance",
+            "type": "Stonesplit - Might",
+            "rarity": "purple",
+            "tags": [
+                "Defense",
+                "Buff"
+            ]           
+        },
+        {
+            "name": "Seasonal Edge",
+            "type": "General",
+            "rarity": "yellow",
+            "tags": [
+                "Attack",
+                "Buff",
+                "DMG Boost"
+            ]
+        },
+        {
+            "name": "Sword Morph",
+            "type": "Bellstrike - Splender",
+            "rarity": "yellow",
+            "tags": [
+                "Attack",
+                "Martial Arts",
+                "DMG Boost"
+            ]
+        },
+        {
+            "name": "Blossom Barrage",
+            "type": "Silkbind - Jade",
+            "rarity": "yellow",
+            "tags": [
+                "Attack",
+                "Martial Arts",
+                "DMG Boost"
+            ]
+        },
+        {
+            "name": "Royal Remedy",
+            "type": "Silkbind - Deluge",
+            "rarity": "yellow",
+            "tags": [
+                "Support",
+                "Martial Arts",
+                "Recover"
+            ]
+        },
+        {
+            "name": "Echoes of Oblivion",
+            "type": "Bamboocut - Wind",
+            "rarity": "yellow",
+            "tags": [
+                "Pursuit",
+                "Martial Arts",
+                "Debuff"
+            ]
+        },
+        {
+            "name": "Fury Harvest",
+            "type": "General",
+            "rarity": "purple",
+            "tags": [
+                "Support",
+                "Mystic Skills",
+                "Recover"
+            ]
+        },
+        {
+            "name": "Battle Anthem",
+            "type": "Bellstrike - Splender",
+            "rarity": "purple",
+            "tags": [
+                "Attack",
+                "DMG Boost"
+            ]
+        },
+        {
+            "name": "Adaptive Steel",
+            "type": "Bellstrike - Umbra",
+            "rarity": "purple",
+            "tags": [
+                "Attack",
+                "Support",
+                "Buff"
+            ]
+        },
+        {
+            "name": "Insightful Strike",
+            "type": "Bellstrike - Umbra",
+            "rarity": "purple",
+            "tags": [
+                "Attack",
+                "DMG Boost",
+                "DMG Reduction"
+            ]
+        },
+        {
+            "name": "Rock Solid",
+            "type": "Stonesplit - Might",
+            "rarity": "purple",
+            "tags": [
+                "Defense",
+                "Martial Arts",
+                "DMG Reduction"
+            ]
+        },
+        {
+            "name": "Invigorated Warrior",
+            "type": "General",
+            "rarity": "purple",
+            "tags": [
+                "Attack",
+                "Buff",
+                "DMG Boost"
+            ]
+        },
+        {
+            "name": "Bitter Seasons",
+            "type": "General",
+            "rarity": "purple",
+            "tags": [
+                "Attack",
+                "Debuff",
+                "Stacking"
+            ]
+        },
+        {
+            "name": "Vital Leech",
+            "type": "General",
+            "rarity": "purple",
+            "tags": [
+                "Pursuit",
+                "Recover"
+            ]
+        },
+        {
+            "name": "Divine Roulette",
+            "type": "General",
+            "rarity": "purple",
+            "tags": [
+                "Counter",
+                "Buff",
+                "DMG Boost"
+            ]
+        },
+        {
+            "name": "Evasive Charge",
+            "type": "General",
+            "rarity": "purple",
+            "tags": [
+                "Cost Reduction",
+                "Recover"
+            ]
+        },
+        {
+            "name": "Mountain's Might",
+            "type": "Bellstrike - Splender",
+            "rarity": "purple",
+            "tags": [
+                "Support",
+                "Martial Arts",
+                "Cost Reduction"
+            ]
+        },
+        {
+            "name": "Wildfire Spark",
+            "type": "Bellstrike - Splender",
+            "rarity": "purple",
+            "tags": [
+                "Support",
+                "Recover"
+            ]
+        },
+        {
+            "name": "Wolfchaser's Art",
+            "type": "Bellstrike - Umbra",
+            "rarity": "purple",
+            "tags": [
+                "Martial Arts",
+                "Buff"
+            ]
+        },
+        {
+            "name": "Flying Gourds",
+            "type": "Silkbind - Jade",
+            "rarity": "purple",
+            "tags": [
+                "Martial Arts",
+                "Support"
+            ]
+        },
+        {
+            "name": "Thunderous Bloom",
+            "type": "Silkbind - Jade",
+            "rarity": "purple",
+            "tags": [
+                "DMG Boost",
+                "Buff"
+            ]
+        },
+        {
+            "name": "Star Reacher",
+            "type": "Silkbind - Jade",
+            "rarity": "purple",
+            "tags": [
+                "Attack",
+                "Pursuit",
+                "Buff"
+            ]
+        },
+        {
+            "name": "Restoring Blossom",
+            "type": "Silkbind - Deluge",
+            "rarity": "purple",
+            "tags": [
+                "Support",
+                "Buff",
+                "Stacking"
+            ]
+        },
+        {
+            "name": "Esoteric Revival",
+            "type": "Silkbind - Deluge",
+            "rarity": "purple",
+            "tags": [
+                "Support",
+                "Buff",
+                "Recover"
+            ]
+        },
+        {
+            "name": "Mending Loom",
+            "type": "Silkbind - Deluge",
+            "rarity": "purple",
+            "tags": [
+                "Support",
+                "Buff",
+                "Recover"
+            ]
+        },
+        {
+            "name": "Vendetta",
+            "type": "Bamboocut - Wind",
+            "rarity": "purple",
+            "tags": [
+                "Martial Arts",
+                "Buff",
+                "Recover"
+            ]
+        },
+        {
+            "name": "Breaking Point",
+            "type": "Bamboocut - Wind",
+            "rarity": "purple",
+            "tags": [
+                "Pursuit",
+                "Buff",
+                "Stacking"
+            ]
+        },
+        {
+            "name": "Riptide Reflex",
+            "type": "Bamboocut - Wind",
+            "rarity": "purple",
+            "tags": [
+                "Control",
+                "Buff"
+            ]
+        },
+        {
+            "name": "Wind Beneath Wings",
+            "type": "General",
+            "rarity": "blue",
+            "tags": [
+                "Support",
+                "Mystic Skills",
+                "Recover"
+            ]
+        },
+        {
+            "name": "Evening Snow",
+            "type": "General",
+            "rarity": "blue",
+            "tags": [
+                "Support",
+                "Recover"
+            ]
+        },
+        {
+            "name": "Steadfast Stance",
+            "type": "General",
+            "rarity": "blue",
+            "tags": [
+                "Defense",
+                "Control Resistance"
+            ]
+        },
+        {
+            "name": "Shadow Assault",
+            "type": "General",
+            "rarity": "blue",
+            "tags": [
+                "Attack",
+                "Mystic Skills",
+                "DMG Boost"
+            ]
+        },
+        {
+            "name": "Sword Horizon",
+            "type": "Bellstrike - Umbra",
+            "rarity": "blue",
+            "tags": [
+                "Attack",
+                "Martial Arts",
+                "Pursuit"
+            ]
+        },
+        {
+            "name": "Fivefold Bleed",
+            "type": "General",
+            "rarity": "blue",
+            "tags": [
+                "Attack",
+                "Damage",
+                "Stacking"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "stats": [
+        {
+            "name": "Body",
+            "description": "converts into character's Max HP based on a certain ratio"
+        },
+        {
+            "name": "Power",
+            "description": "Converts into character's Physical Attack based on a certain ratio"
+        },
+        {
+            "name": "Defense",
+            "description": "Converts into character's Physical Defense and Max HP based on a certain ratio"
+        },
+        {
+            "name": "Agility",
+            "description": "Converts into character's Critical Rate and Min Physical Attack based on a certain ratio"
+        },
+        {
+            "name": "Momentum",
+            "description": "Coverts into character's Affinity Rate and Max Physical Attack based on a certain ratio"
+        },
+        {
+            "name": "Max HP",
+            "description": "Affects character's maximum HP"
+        },
+        {
+            "name": "Max Qi",
+            "description": "When Qi is depleted, the character will enter the Exhausted state"
+        },
+        {
+            "name": "Physical Attack",
+            "description": "Affects the Physical damage dealt by attacks"
+        },
+        {
+            "name": "Max Physical Attack",
+            "description": ""
+        },
+        {
+            "name": "Min Physical Attack",
+            "description": ""
+        },
+        {
+            "name": "Attribute Attack",
+            "description": ""
+        },
+        {
+            "name": "Physical Defense",
+            "description": "The higher your physical defense, the less damage you take from physical attacks"
+        },
+        {
+            "name": "Percision Rate",
+            "description": ""
+        },
+        {
+            "name": "Critical Rate",
+            "description": ""
+        },
+        {
+            "name": "Affinity Rate",
+            "description": ""
+        },
+        {
+            "name": "Direct Critical Rate",
+            "description": ""
+        },
+        {
+            "name": "Direct Affinity Rate",
+            "description": ""
+        },
+        {
+            "name": "Abrasion Conversion Rate",
+            "description": ""
+        },
+        {
+            "name": "Resistance",
+            "description": ""
+        },
+        {
+            "name": "Critical DMG Bonus",
+            "description": "The damage increase effect triggered by critical hit"
+        },
+        {
+            "name": "Affinity DMG Bonus",
+            "description": "The damage increase effect triggered by Affinity"
+        },
+        {
+            "name": "Physical Penetration",
+            "description": "Increases ability to deal damage and heal with physical attacks"
+        },
+        {
+            "name": "Physical DMG Bonus",
+            "description": "Increases physical damage dealt effects"
+        },
+        {
+            "name": "Attribute Attack Penetration",
+            "description": "Increases the ability to deal damage and heal with Attribute Attacks"
+        },
+        {
+            "name": "Attribute Attack DMG Bonus",
+            "description": "Increases the attribute damage caused"
+        },
+        {
+            "name": "All Martial Art Skill DMG Boost",
+            "description": ""
+        },
+        {
+            "name": "Specified Weapon Martial Art Boost",
+            "description": ""
+        },
+        {
+            "name": "DMG Boost Vs. Boss Units",
+            "description": "Increases all damage dealt to boss units"
+        },
+        {
+            "name": "PvP Boost",
+            "description": "Increases all damage and healing done to players"
+        },
+        {
+            "name": "Single-Target Mystic Skill DMG Boost",
+            "description": ""
+        },
+        {
+            "name": "Area Mystic Skill DMG Boost",
+            "description": ""
+        },
+        {
+            "name": "Attribute Healing",
+            "description": ""
+        },
+        {
+            "name": "Critcal Healing Bonus",
+            "description": ""
+        },
+        {
+            "name": "Physical Healing Bonus",
+            "description": ""
+        },
+        {
+            "name": "Physical Resistance",
+            "description": ""
+        },
+        {
+            "name": "Physical DMG Reduction",
+            "description": ""
+        },
+        {
+            "name": "Attribute DMG Reduction",
+            "description": ""
+        }
+    ]
+}

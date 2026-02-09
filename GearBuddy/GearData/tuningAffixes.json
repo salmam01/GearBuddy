@@ -1,0 +1,152 @@
+{
+    "tuningAffixes": [
+        {
+            "name": "---test---",
+            "recommendedFor": [
+                "Bamboocut - Wind",
+                "Bellstrike - Umbra",
+                "Bellstrike - Splender",
+                "General",
+                "Silkbind - Deluge",
+                "Silkbind - Jade",
+                "Stonesplit - Might"
+            ]
+        },
+        {
+            "name": "Max Physical Attack",
+            "recommendedFor": [
+                "Bamboocut - Wind",
+                "Bellstrike - Umbra",
+                "Bellstrike - Splender",
+                "Silkbind - Deluge",
+                "Silkbind - Jade",
+                "Stonesplit - Might"
+            ]
+        },
+        {
+            "name": "Min Physical Attack",
+            "recommendedFor": [
+                "Bamboocut - Wind",
+                "Silkbind - Deluge",
+                "Silkbind - Jade",
+                "Stonesplit - Might"
+            ]
+        },
+        {
+            "name": "Max Bellstrike Attack",
+            "recommendedFor": [
+                "Bellstrike - Umbra",
+                "Bellstrike - Splender"
+            ]
+        },
+        {
+            "name": "Min Bellstrike Attack",
+            "recommendedFor": []
+        },
+        {
+            "name": "Max Silkbind Attack",
+            "recommendedFor": [
+                "Silkbind - Deluge",
+                "Silkbind - Jade"
+            ]
+        },
+        {
+            "name": "Min Silkbind Attack",
+            "recommendedFor": [
+                "Silkbind - Deluge",
+                "Silkbind - Jade"
+            ]
+        },
+        {
+            "name": "Maximum Bamboocut Attack",
+            "recommendedFor": [
+                "Bamboocut - Wind"
+            ]
+        },
+        {
+            "name": "Min Bamboocut Attack",
+            "recommendedFor": [
+                "Bamboocut - Wind"
+            ]
+        },
+        {
+            "name": "Max Stonesplit Attack",
+            "recommendedFor": [
+                "Stonesplit - Might"
+            ]
+        },
+        {
+            "name": "Min Stonesplit Attack",
+            "recommendedFor": []
+        },
+        {
+            "name": "Critical Rate",
+            "recommendedFor": [
+                "Bellstrike - Umbra",
+                "Bellstrike - Splender",
+                "Silkbind - Deluge",
+                "Silkbind - Jade",
+                "Bamboocut - Wind",
+                "Stonesplit - Might"
+            ]
+        },
+        {
+            "name": "Affinity Rate",
+            "recommendedFor": [
+                "Bellstrike - Umbra",
+                "Bellstrike - Splender"
+            ]
+        },
+        {
+            "name": "Power",
+            "recommendedFor": [
+                "Bellstrike - Umbra",
+                "Bellstrike - Splender",
+                "Silkbind - Deluge",
+                "Silkbind - Jade",
+                "Bamboocut - Wind",
+                "Stonesplit - Might"
+            ]
+        },
+        {
+            "name": "Momentum",
+            "recommendedFor": [
+                "Bellstrike - Umbra",
+                "Bellstrike - Splender"
+            ]
+        },
+        {
+            "name": "Agility",
+            "recommendedFor": [
+                "Silkbind - Deluge",
+                "Silkbind - Jade",
+                "Bamboocut - Wind",
+                "Stonesplit - Might"
+            ]
+        },
+        {
+            "name": "Max HP",
+            "recommendedFor": [
+                "General"
+            ]
+        },
+        {
+            "name": "Physical Defense",
+            "recommendedFor": [
+                "General"
+            ]
+        },
+        {
+            "name": "Body",
+            "recommendedFor": [
+                "General"
+            ]
+        },
+        {
+            "name": "Defense",
+            "recommendedFor": [
+                "General"
+            ]
+        }
+    ]
+}
