@@ -1,6 +1,6 @@
 ﻿namespace GearBuddy.Services
 {
-    public class GearComparison
+    public class JSONParser
     {
     }
 }

@@ -2,6 +2,9 @@
 using DSharpPlus.Commands;
 using DSharpPlus.Commands.Processors.SlashCommands;
 using DSharpPlus.Commands.Processors.TextCommands;
+using DSharpPlus.Commands.Processors.TextCommands.Parsing;
+using DSharpPlus.Entities;
+using GearBuddy.Commands;
 using GearBuddy.Configuration;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -50,7 +53,9 @@ class Program
                 // Intents represent what data the bot is allowed to receive from guilds (servers)
                 DiscordIntents intents =
                     DiscordIntents.AllUnprivileged |
-                    DiscordIntents.MessageContents;
+                    DiscordIntents.MessageContents |
+                    TextCommandProcessor.RequiredIntents |
+                    SlashCommandProcessor.RequiredIntents;
 
                 DiscordClientBuilder builder = DiscordClientBuilder.CreateDefault(
                     botConfig.AuthToken,
@@ -60,12 +65,22 @@ class Program
 
                 // Register the commands extension
                 builder.UseCommands(
-                    (serviceProvider, commands) =>
+                    (serviceProvider, extension) =>
                     {
-                        // Processors are input readers
-                        commands.AddProcessor(new TextCommandProcessor());
-                        commands.AddProcessor(new SlashCommandProcessor());
-                        commands.AddCommands(currentAssembly);
+                        // Add Text and Slash Command Processors (input readers) to the extension
+                        TextCommandProcessor textCommandProcessor = new(new TextCommandConfiguration()
+                        {
+                            PrefixResolver = new DefaultPrefixResolver(true, botConfig.Prefix).ResolvePrefixAsync
+                        });
+
+                        extension.AddProcessor(textCommandProcessor);
+                        extension.AddProcessor(new SlashCommandProcessor());
+
+                        extension.AddCommands(currentAssembly);
+                    }, new CommandsConfiguration()
+                    {
+                        // Server ID for debugging purposes
+                        DebugGuildId = botConfig.DebugGuildID
                     }
                 );
 
@@ -74,6 +89,8 @@ class Program
             });
 
             IServiceProvider serviceProvider = services.BuildServiceProvider();
+
+            DiscordActivity status = new("Type !goose for help", DiscordActivityType.Playing);
 
             DiscordClient client = serviceProvider.GetRequiredService<DiscordClient>();
 
