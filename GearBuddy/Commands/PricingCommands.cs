@@ -37,7 +37,13 @@ public class PricingCommands
         string cost = Pricing.GetDrawPrice(packages, currency);
         string packageListStr = Pricing.FormatPackages(packages);
 
-        await context.RespondAsync($"{draws} requires {beadQuantity} echo beads and costs {cost}! \r\n Packages: \r\n```markdown\r\n{packageListStr}```");
+        DiscordInteractionResponseBuilder messageBuilder = new DiscordInteractionResponseBuilder
+        {
+            Content = $"{draws} requires {beadQuantity} echo beads and costs {cost}! \r\n Packages: \r\n```markdown\r\n{packageListStr}```"
+        };
+        messageBuilder.AsEphemeral(true);
+    
+        await context.RespondAsync(messageBuilder);
     }
 
     [Command("beads")]
@@ -51,9 +57,15 @@ public class PricingCommands
         int beadQuantity = beads;
         List<int> packages = Pricing.GetPackages(beadQuantity);
         double cost = Pricing.PackagesToPrice(packages, currency);
-        string result = Pricing.FormatForCurrenct(cost, currency);
+        string result = Pricing.FormatForCurrency(cost, currency);
         string packageListStr = Pricing.FormatPackages(packages);
+
+        DiscordInteractionResponseBuilder messageBuilder = new DiscordInteractionResponseBuilder
+        {
+            Content = $"{beadQuantity} echo beads and costs {result}! \r\n Packages: \r\n```markdown\r\n{packageListStr}```"
+        };
+        messageBuilder.AsEphemeral(true);
         
-        await context.RespondAsync($"{beadQuantity} echo beads and costs {result}! \r\n Packages: \r\n```markdown\r\n{packageListStr}```");
+        await context.RespondAsync(messageBuilder);
     }
 }

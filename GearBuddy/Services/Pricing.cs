@@ -65,16 +65,16 @@ namespace GearBuddy.Services
             int beadQuantity = GetBeadQuantityFor(draws);
             List<int> packages = GetPackages(beadQuantity);
             double cost = PackagesToPrice(packages, currency);
-            return FormatForCurrenct(cost, currency);
+            return FormatForCurrency(cost, currency);
         }
 
         public static string GetDrawPrice(List<int> packages, string currency)
         {
             double cost = PackagesToPrice(packages, currency);
-            return FormatForCurrenct(cost, currency);
+            return FormatForCurrency(cost, currency);
         }
         
-        public static string FormatForCurrenct(double cost, string currency)
+        public static string FormatForCurrency(double cost, string currency)
         {
             return _drawData.currencyFormat[currency].Replace("{cost}", cost.ToString("0.00"));
         }
