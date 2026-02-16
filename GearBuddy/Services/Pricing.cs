@@ -1,7 +1,7 @@
 using System.Text.Json;
 using GearBuddy.Models;
 
-namespace GearBuddy.Services
+namespace GearBuddy.Services.Pricing
 {
     public class Pricing
     {
@@ -17,7 +17,8 @@ namespace GearBuddy.Services
         private static DrawCost GetDrawData()
         {   
             string json = File.ReadAllText("./Data/DrawCost.json");
-            return JsonSerializer.Deserialize<DrawCost>(json);
+            return JsonSerializer.Deserialize<DrawCost>(json)
+                ?? throw new Exception("Failed to Deserialize DrawCost.json");
         }
 
         public static int GetBeadQuantityFor(int draws)

@@ -1,24 +1,11 @@
 using DSharpPlus;
 using DSharpPlus.Commands;
-using DSharpPlus.Commands.Processors.SlashCommands.ArgumentModifiers;
-using DSharpPlus.Commands.Trees;
 using DSharpPlus.Entities;
+using DSharpPlus.Commands.Processors.SlashCommands.ArgumentModifiers;
 using System.ComponentModel;
 using System.Threading.Tasks;
-using GearBuddy.Services;
-
-public class CurrencyProvider : IChoiceProvider
-{
-    private static readonly IEnumerable<DiscordApplicationCommandOptionChoice> currency =
-    [
-        new DiscordApplicationCommandOptionChoice("GBP", "GBP"),
-        new DiscordApplicationCommandOptionChoice("USD", "USD"),
-        new DiscordApplicationCommandOptionChoice("EURO", "EURO"),
-    ];
-
-    public ValueTask<IEnumerable<DiscordApplicationCommandOptionChoice>> ProvideAsync(CommandParameter parameter) =>
-        ValueTask.FromResult(currency);
-}
+using GearBuddy.Services.Pricing;
+using GearBuddy.Providers;
 
 [Command("pricing")]
 public class PricingCommands

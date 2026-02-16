@@ -8,4 +8,3 @@ namespace GearBuddy.Models
         public int beadsPerDraw { get; set; } = 0;
     }
 }
-
